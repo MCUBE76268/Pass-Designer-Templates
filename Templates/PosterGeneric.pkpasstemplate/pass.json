@@ -1,0 +1,73 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.passdesigner.sample",
+  "serialNumber": "SERIAL-POSTER-GENERIC-0000",
+  "teamIdentifier": "ABCDE12345",
+  "organizationName": "Pass Designer",
+  "description": "Pass Designer sample poster-style generic pass",
+  "logoText": "POSTER BRAND",
+  "foregroundColor": "rgb(252, 250, 241)",
+  "backgroundColor": "rgb(25, 25, 28)",
+  "labelColor": "rgb(241, 181, 87)",
+  "relevantDate": "2027-08-12T18:30:00+04:00",
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "POSTER-GENERIC-0000",
+      "messageEncoding": "iso-8859-1",
+      "altText": "POSTER-ID"
+    }
+  ],
+  "posterGeneric": {
+    "headerFields": [
+      {
+        "key": "format",
+        "label": "FORMAT",
+        "value": "POSTER"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "title",
+        "label": "SCREENING",
+        "value": "Poster Title"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "date",
+        "label": "DATE",
+        "value": "Poster Date"
+      },
+      {
+        "key": "time",
+        "label": "TIME",
+        "value": "Poster Time"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "location",
+        "label": "LOCATION",
+        "value": "Location Name"
+      },
+      {
+        "key": "edition",
+        "label": "EDITION",
+        "value": "Edition Name"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "assetHint",
+        "label": "Artwork hint",
+        "value": "Artwork hint goes here."
+      },
+      {
+        "key": "notes",
+        "label": "Notes",
+        "value": "Poster template notes go here."
+      }
+    ]
+  }
+}

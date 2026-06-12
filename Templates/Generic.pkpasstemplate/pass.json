@@ -1,0 +1,68 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.passdesigner.sample",
+  "serialNumber": "SERIAL-GENERIC-0000",
+  "teamIdentifier": "ABCDE12345",
+  "organizationName": "Pass Designer",
+  "description": "Pass Designer sample generic pass",
+  "logoText": "ORGANIZATION NAME",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(64, 87, 70)",
+  "labelColor": "rgb(196, 222, 202)",
+  "relevantDate": "2027-02-09T14:30:00+04:00",
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "GENERIC-CHECKIN-0000",
+      "messageEncoding": "iso-8859-1",
+      "altText": "CODE"
+    }
+  ],
+  "generic": {
+    "headerFields": [
+      {
+        "key": "status",
+        "label": "STATUS",
+        "value": "STATUS"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "title",
+        "label": "APPOINTMENT",
+        "value": "Pass Title"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "date",
+        "label": "DATE",
+        "value": "Date Value"
+      },
+      {
+        "key": "time",
+        "label": "TIME",
+        "value": "Time Value"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "room",
+        "label": "ROOM",
+        "value": "Room Name"
+      },
+      {
+        "key": "host",
+        "label": "HOST",
+        "value": "Host Name"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "notes",
+        "label": "Notes",
+        "value": "Additional notes go here."
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.passdesigner.sample",
+  "serialNumber": "SERIAL-COUPON-0000",
+  "teamIdentifier": "ABCDE12345",
+  "organizationName": "Pass Designer",
+  "description": "Pass Designer sample coupon pass",
+  "logoText": "STORE NAME",
+  "foregroundColor": "rgb(28, 30, 34)",
+  "backgroundColor": "rgb(248, 232, 170)",
+  "labelColor": "rgb(112, 80, 28)",
+  "expirationDate": "2027-04-30T23:59:59+04:00",
+  "locations": [
+    {
+      "latitude": 25.2048,
+      "longitude": 55.2708,
+      "relevantText": "Use this coupon near Store Name"
+    }
+  ],
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "COUPON-CODE-0000",
+      "messageEncoding": "iso-8859-1",
+      "altText": "CODE"
+    }
+  ],
+  "coupon": {
+    "headerFields": [
+      {
+        "key": "expires",
+        "label": "EXPIRES",
+        "value": "DATE"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "offer",
+        "label": "TODAY ONLY",
+        "value": "Discount Value"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "category",
+        "label": "CATEGORY",
+        "value": "Category Name"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "code",
+        "label": "CODE",
+        "value": "CODE"
+      },
+      {
+        "key": "minimum",
+        "label": "MINIMUM",
+        "value": "Minimum Spend"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "terms",
+        "label": "Terms",
+        "value": "Coupon terms and conditions."
+      }
+    ]
+  }
+}

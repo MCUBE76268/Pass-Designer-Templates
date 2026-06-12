@@ -1,0 +1,80 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.passdesigner.sample",
+  "serialNumber": "SERIAL-EVENT-0000",
+  "teamIdentifier": "ABCDE12345",
+  "organizationName": "Pass Designer",
+  "description": "Pass Designer sample event pass",
+  "logoText": "VENUE NAME",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(42, 39, 86)",
+  "labelColor": "rgb(210, 203, 255)",
+  "relevantDate": "2027-05-21T20:00:00+04:00",
+  "locations": [
+    {
+      "latitude": 25.1972,
+      "longitude": 55.2744,
+      "relevantText": "Doors open at Venue Name"
+    }
+  ],
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "EVENT-TICKET-0000",
+      "messageEncoding": "iso-8859-1",
+      "altText": "SECTION-SEAT"
+    }
+  ],
+  "eventTicket": {
+    "headerFields": [
+      {
+        "key": "door",
+        "label": "DOORS",
+        "value": "Door Time"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "event",
+        "label": "LIVE",
+        "value": "Event Name"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "date",
+        "label": "DATE",
+        "value": "Event Date"
+      },
+      {
+        "key": "venue",
+        "label": "VENUE",
+        "value": "Venue Name"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "section",
+        "label": "SECTION",
+        "value": "SECTION"
+      },
+      {
+        "key": "row",
+        "label": "ROW",
+        "value": "ROW"
+      },
+      {
+        "key": "seat",
+        "label": "SEAT",
+        "value": "SEAT"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "entry",
+        "label": "Entry",
+        "value": "Entry instructions go here."
+      }
+    ]
+  }
+}

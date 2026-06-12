@@ -1,0 +1,107 @@
+{
+  "backgroundColor" : "rgb(24,78,119)",
+  "barcodes" : [
+    {
+      "altText" : "FL0001",
+      "format" : "PKBarcodeFormatPDF417",
+      "message" : "M1PERSON\/NAME           EAAABBB FL0001 001Y001A0001 100",
+      "messageEncoding" : "iso-8859-1"
+    }
+  ],
+  "boardingPass" : {
+    "auxiliaryFields" : [
+      {
+        "_id" : "F9C7A412-CABA-479B-B1CC-230FA18C89F2",
+        "key" : "boarding",
+        "label" : "BOARDING",
+        "value" : "HH:MM"
+      },
+      {
+        "_id" : "A1F41DDA-D97C-4516-BBF3-24E1A7431B22",
+        "key" : "departure",
+        "label" : "DEPARTURE",
+        "value" : "HH:MM"
+      },
+      {
+        "_id" : "C17B0DAD-6E2A-4E5C-8884-495B505A6CC0",
+        "key" : "zone",
+        "label" : "ZONE",
+        "value" : "ZONE"
+      }
+    ],
+    "backFields" : [
+      {
+        "_id" : "A3578795-EEEF-4254-A85D-26C59AE9ADE3",
+        "key" : "terminal",
+        "label" : "Terminal",
+        "value" : "Terminal Name"
+      },
+      {
+        "_id" : "DA2E43A8-1603-43AD-9AD1-257749416611",
+        "key" : "baggage",
+        "label" : "Baggage",
+        "value" : "Baggage details"
+      }
+    ],
+    "headerFields" : [
+      {
+        "_id" : "F9D627BA-7299-42FE-9D52-D52ADC13B7CA",
+        "key" : "gate",
+        "label" : "GATE",
+        "value" : "GATE"
+      },
+      {
+        "_id" : "E51545AE-1C1E-4C0B-B1E1-B70A45D2A62C",
+        "key" : "seat",
+        "label" : "SEAT",
+        "value" : "SEAT"
+      }
+    ],
+    "primaryFields" : [
+      {
+        "_id" : "5742FAFF-673F-4492-AAF6-74A65357599E",
+        "key" : "origin",
+        "label" : "ORIGIN",
+        "value" : "AAA"
+      },
+      {
+        "_id" : "B1F2BAB0-BEFD-4246-A7B7-EE6B018ABED1",
+        "key" : "destination",
+        "label" : "DESTINATION",
+        "value" : "BBB"
+      }
+    ],
+    "secondaryFields" : [
+      {
+        "_id" : "BDFE8055-2597-401D-B8A1-381BC88B4EA7",
+        "key" : "passenger",
+        "label" : "PASSENGER",
+        "value" : "Person Name"
+      },
+      {
+        "_id" : "96320021-D5AF-47DF-8AC6-A1BCA5F7240B",
+        "key" : "flight",
+        "label" : "FLIGHT",
+        "value" : "FL 0001"
+      }
+    ],
+    "transitType" : "PKTransitTypeAir"
+  },
+  "description" : "Pass Designer sample boarding pass",
+  "foregroundColor" : "rgb(255,255,255)",
+  "formatVersion" : 1,
+  "labelColor" : "rgb(189,224,254)",
+  "locations" : [
+    {
+      "latitude" : 25.2532,
+      "longitude" : 55.3657,
+      "relevantText" : "Airport Name"
+    }
+  ],
+  "logoText" : "AIRLINE NAME",
+  "organizationName" : "Pass Designer",
+  "passTypeIdentifier" : "pass.com.passdesigner.sample",
+  "relevantDate" : "2027-03-18T03:45:00Z",
+  "serialNumber" : "SERIAL-BOARDING-0000",
+  "teamIdentifier" : "ABCDE12345"
+}
